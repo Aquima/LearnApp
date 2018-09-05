@@ -42,7 +42,7 @@ class SplashActivity : AppCompatActivity() {
         Log.v("SplashActivity",newList.last().nombre)
 
     }
-    fun goLogin (view: View) {
+    private fun goLogin (view: View) {
         Log.v("Actions","This Action Create One new Activity")
         val loginView = Intent(this, LogInActivity::class.java)
         startActivity(loginView)

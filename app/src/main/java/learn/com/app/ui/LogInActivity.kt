@@ -29,7 +29,7 @@ class LogInActivity : AppCompatActivity() {
                Log.v("LogIn","No Valid")
            }
         }
-        val txfUser:EditText = findViewById(R.id.txfUsername)
+//        val txfUser:EditText = findViewById(R.id.txfUsername)
 
     }
     fun isFormValidate():Boolean{
@@ -47,7 +47,7 @@ class LogInActivity : AppCompatActivity() {
             return false
         }
     }
-    fun createAndGoHome(){
+    private fun createAndGoHome(){
 
     }
 }
